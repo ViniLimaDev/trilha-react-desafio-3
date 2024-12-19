@@ -42,6 +42,16 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
+export const DescriptionTitle = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+`
+
 export const TitleLogin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
@@ -79,8 +89,4 @@ export const CriarText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
-
-    &:hover{
-        cursor: pointer;
-    }
 `
